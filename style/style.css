@@ -1,0 +1,117 @@
+
+
+body{
+   background-color: #a7a7a7;
+    flex-direction: column;
+    
+    
+}
+h1{
+  
+    
+    font-size: 85px;
+    color:#fbb034;
+    text-shadow: 1px 3px rgb(0, 0, 0, 0.9);
+    margin-left: 270px;
+}
+
+
+.container{
+     position: relative;
+     width: 600px;
+    height: auto;
+    margin: 20px;
+    border: 8px solid white;
+    margin-left: 400px;
+    box-shadow: 0 5px 5px black;
+}
+.image{
+    display: block;
+     width: 100%;
+    height: auto;
+    
+ 
+}
+.face{
+    position:absolute;
+    border: 2px solid  red;
+}
+.button button{
+    background: green;
+    padding: 10px;
+    margin-left: 660px;
+    display: flex;
+     border-radius: 12px;
+    color: white;
+    font-weight: bold;
+   
+    box-shadow: 0 5px 5px rgb(0,0,0.5);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.button button:focus{
+    background: #336ea6;
+}
+
+
+.icons{
+    font-size: 35px;
+    margin: 30px;
+    margin-left: 30px;
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+  justify-content: center;
+
+
+    
+}
+.icons li a{
+color: white;
+padding: 10px;
+
+}
+.icons li:hover{
+    opacity: 0.6;
+}
+
+
+input{
+   background: green;
+   padding: 5px;
+   border-radius: 12px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-shadow: 1px 1px rgb(0, 0, 0, 0.9);
+   box-shadow: 0 5px 5px rgb(0,0,0.5);
+   cursor: pointer;
+   margin-left: 575px;
+}
+input:focus{
+    background: #336ea6;
+}
+input:hover{
+    background: #336ea6;
+}
+
+.reflesh{
+    background: green;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(0, 0, 0, 0.9);
+    box-shadow: 0 5px 5px rgb(0,0,0.5);
+    cursor: pointer;
+    margin-left: 650px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

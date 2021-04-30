@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face recognition</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <h1>Yüz Tanıma Uygulaması</h1>
+    
+   
+<div  class= "container">
+ 
+    <img id='output' class="image">
+    
+
+</div>
+<input type='file'accept='image/*' onchange='openFile(event)'>
+
+
+
+<div class="button">
+<button onclick="detection();"> Tarama</button>
+
+</div>
+<button class="reflesh" onclick="window.location.reload(false)">Tekrar Dene</button>
+
+
+
+<div>
+        <ul class="icons">
+            <li>
+                <a href="https://www.instagram.com/emregulec._/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+           
+            <li>
+                <a href="https://twitter.com/ErolEmreGle1 " target="_blank"> <i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/emre-g%C3%BCle%C3%A7-5429b8210/" target="_blank"><i class="fab fa-linkedin"></i> </a>
+            </li>
+            <li>
+                <a href="https://github.com/erolemre1" target="_blank"> <i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </div>
+   
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/jquery.facedetection.min.js"></script>
+    <script src="./js/file.js"></script>
+   
+</body>
+</html>
